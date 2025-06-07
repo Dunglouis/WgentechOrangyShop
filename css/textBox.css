@@ -1,0 +1,34 @@
+.textBox {
+  padding: 4rem;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.textBox__container {
+  width: 95%;
+  margin: 0 auto;
+}
+.textBox__subtitle {
+  width: 40%;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.textBox__content {
+  font-size: 2rem;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .textBox__subtitle {
+    width: 100%;
+  }
+  .textBox {
+    padding: 30px 16px;
+  }
+
+  .textBox__content {
+    font-size: 1.75rem;
+  }
+}
